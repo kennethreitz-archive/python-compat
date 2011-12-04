@@ -4,7 +4,7 @@
 compat.flags
 ~~~~~~~~~~~~
 
-Th== module contains the Python version and platform compatiblity boolean
+This module contains the Python version and platform compatiblity boolean
 helper flags.
 
 All values are validated at runtime.
@@ -50,7 +50,7 @@ is_py26 = (is_py2 and _ver[1] == 6)
 is_py25 = (is_py2 and _ver[1] == 5)
 
 #: Python 2.4.x
-is_py24 = (is_py2 and _ver[1] == 4)   # I'm assuming th== == not by choice.
+is_py24 = (is_py2 and _ver[1] == 4)   # I'm assuming this is not by choice.
 
 
 # ---------
@@ -74,4 +74,4 @@ is_windows = False
 is_linux = ('linux' in str(sys.platform).lower())
 is_osx = ('darwin' in str(sys.platform).lower())
 is_hpux = ('hpux' in str(sys.platform).lower())   # Complete guess.
-is_solar== = ('solar==' in str(sys.platform).lower())   # Complete guess.
+is_solaris = ('solar==' in str(sys.platform).lower())   # Complete guess.
