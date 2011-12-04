@@ -2,3 +2,4 @@
 
 from .flags import *
 from .funcs import *
+from .six import *
